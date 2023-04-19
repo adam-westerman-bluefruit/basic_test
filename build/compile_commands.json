@@ -1,0 +1,56 @@
+[
+{
+  "directory": "C:/Users/Adam/source/repos/Example_TestFramework/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++20 -o CMakeFiles\\Account.dir\\src\\Account.cpp.obj -c C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\src\\Account.cpp",
+  "file": "C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\src\\Account.cpp",
+  "output": "CMakeFiles\\Account.dir\\src\\Account.cpp.obj"
+},
+{
+  "directory": "C:/Users/Adam/source/repos/Example_TestFramework/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++20 -o CMakeFiles\\Account.dir\\src\\Validator.cpp.obj -c C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\src\\Validator.cpp",
+  "file": "C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\src\\Validator.cpp",
+  "output": "CMakeFiles\\Account.dir\\src\\Validator.cpp.obj"
+},
+{
+  "directory": "C:/Users/Adam/source/repos/Example_TestFramework/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Adam/source/repos/Example_TestFramework/googletest/googlemock/include -IC:/Users/Adam/source/repos/Example_TestFramework/googletest/googlemock -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest/include -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\googletest\\googlemock\\src\\gmock-all.cc",
+  "output": "googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj"
+},
+{
+  "directory": "C:/Users/Adam/source/repos/Example_TestFramework/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googlemock/include -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googlemock -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest/include -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\googletest\\googlemock\\src\\gmock_main.cc",
+  "file": "C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\googletest\\googlemock\\src\\gmock_main.cc",
+  "output": "googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj"
+},
+{
+  "directory": "C:/Users/Adam/source/repos/Example_TestFramework/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest/include -IC:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\googletest\\googletest\\src\\gtest-all.cc",
+  "output": "googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/Adam/source/repos/Example_TestFramework/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest/include -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\googletest\\googletest\\src\\gtest_main.cc",
+  "file": "C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\googletest\\googletest\\src\\gtest_main.cc",
+  "output": "googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj"
+},
+{
+  "directory": "C:/Users/Adam/source/repos/Example_TestFramework/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest/include -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest -g -std=gnu++20 -o test\\CMakeFiles\\AccountTests.dir\\Tests.cpp.obj -c C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\test\\Tests.cpp",
+  "file": "C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\test\\Tests.cpp",
+  "output": "test\\CMakeFiles\\AccountTests.dir\\Tests.cpp.obj"
+},
+{
+  "directory": "C:/Users/Adam/source/repos/Example_TestFramework/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest/include -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest -g -std=gnu++20 -o test\\CMakeFiles\\AccountTests.dir\\__\\src\\Account.cpp.obj -c C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\src\\Account.cpp",
+  "file": "C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\src\\Account.cpp",
+  "output": "test\\CMakeFiles\\AccountTests.dir\\__\\src\\Account.cpp.obj"
+},
+{
+  "directory": "C:/Users/Adam/source/repos/Example_TestFramework/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest/include -isystem C:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest -g -std=gnu++20 -o test\\CMakeFiles\\AccountTests.dir\\__\\src\\Validator.cpp.obj -c C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\src\\Validator.cpp",
+  "file": "C:\\Users\\Adam\\source\\repos\\Example_TestFramework\\src\\Validator.cpp",
+  "output": "test\\CMakeFiles\\AccountTests.dir\\__\\src\\Validator.cpp.obj"
+}
+]

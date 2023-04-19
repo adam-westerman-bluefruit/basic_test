@@ -1,0 +1,84 @@
+Start testing: Aug 22 11:37 GMT Summer Time
+----------------------------------------------------------
+1/1 Testing: AccountTests
+1/1 Test: AccountTests
+Command: "C:/Users/Adam/source/repos/Example_TestFramework/build/test/AccountTests.exe"
+Directory: C:/Users/Adam/source/repos/Example_TestFramework/build/test
+"AccountTests" start time: Aug 22 11:37 GMT Summer Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Adam/source/repos/Example_TestFramework/googletest/googletest/src/gtest_main.cc
+[==========] Running 22 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 12 tests from AccountTestFixture
+[ RUN      ] AccountTestFixture.assert_new_account_is_empty
+[       OK ] AccountTestFixture.assert_new_account_is_empty (0 ms)
+[ RUN      ] AccountTestFixture.assert_deposit_accumulates_balance
+[       OK ] AccountTestFixture.assert_deposit_accumulates_balance (0 ms)
+[ RUN      ] AccountTestFixture.deposit_zero_throws_exception
+[       OK ] AccountTestFixture.deposit_zero_throws_exception (0 ms)
+[ RUN      ] AccountTestFixture.deposit_negative_number_throws_exception
+[       OK ] AccountTestFixture.deposit_negative_number_throws_exception (0 ms)
+[ RUN      ] AccountTestFixture.assert_withdraw_reduces_balance
+[       OK ] AccountTestFixture.assert_withdraw_reduces_balance (0 ms)
+[ RUN      ] AccountTestFixture.withdraw_with_insufficient_funds_throws_exception
+[       OK ] AccountTestFixture.withdraw_with_insufficient_funds_throws_exception (0 ms)
+[ RUN      ] AccountTestFixture.withdraw_negative_number_throws_exception
+[       OK ] AccountTestFixture.withdraw_negative_number_throws_exception (0 ms)
+[ RUN      ] AccountTestFixture.withdraw_zero_throws_exception
+[       OK ] AccountTestFixture.withdraw_zero_throws_exception (0 ms)
+[ RUN      ] AccountTestFixture.transfer_funds_between_accounts
+[       OK ] AccountTestFixture.transfer_funds_between_accounts (0 ms)
+[ RUN      ] AccountTestFixture.transfer_funds_between_accounts_throws_error_if_insuficcient_funds
+[       OK ] AccountTestFixture.transfer_funds_between_accounts_throws_error_if_insuficcient_funds (0 ms)
+[ RUN      ] AccountTestFixture.transfer_funds_between_accounts_throws_error_if_sum_is_negative
+[       OK ] AccountTestFixture.transfer_funds_between_accounts_throws_error_if_sum_is_negative (0 ms)
+[ RUN      ] AccountTestFixture.transfer_funds_between_accounts_throws_error_if_sum_is_zero
+[       OK ] AccountTestFixture.transfer_funds_between_accounts_throws_error_if_sum_is_zero (0 ms)
+[----------] 12 tests from AccountTestFixture (0 ms total)
+
+[----------] 10 tests from Values_are_in_range/ValidatorFixture
+[ RUN      ] Values_are_in_range/ValidatorFixture.test_value_in_range/0
+-5 is false?
+[       OK ] Values_are_in_range/ValidatorFixture.test_value_in_range/0 (0 ms)
+[ RUN      ] Values_are_in_range/ValidatorFixture.test_value_in_range/1
+4 is false?
+[       OK ] Values_are_in_range/ValidatorFixture.test_value_in_range/1 (0 ms)
+[ RUN      ] Values_are_in_range/ValidatorFixture.test_value_in_range/2
+5 is true?
+[       OK ] Values_are_in_range/ValidatorFixture.test_value_in_range/2 (0 ms)
+[ RUN      ] Values_are_in_range/ValidatorFixture.test_value_in_range/3
+6 is true?
+[       OK ] Values_are_in_range/ValidatorFixture.test_value_in_range/3 (0 ms)
+[ RUN      ] Values_are_in_range/ValidatorFixture.test_value_in_range/4
+7 is true?
+[       OK ] Values_are_in_range/ValidatorFixture.test_value_in_range/4 (0 ms)
+[ RUN      ] Values_are_in_range/ValidatorFixture.test_value_in_range/5
+8 is true?
+[       OK ] Values_are_in_range/ValidatorFixture.test_value_in_range/5 (0 ms)
+[ RUN      ] Values_are_in_range/ValidatorFixture.test_value_in_range/6
+9 is true?
+[       OK ] Values_are_in_range/ValidatorFixture.test_value_in_range/6 (0 ms)
+[ RUN      ] Values_are_in_range/ValidatorFixture.test_value_in_range/7
+10 is true?
+[       OK ] Values_are_in_range/ValidatorFixture.test_value_in_range/7 (0 ms)
+[ RUN      ] Values_are_in_range/ValidatorFixture.test_value_in_range/8
+11 is false?
+[       OK ] Values_are_in_range/ValidatorFixture.test_value_in_range/8 (0 ms)
+[ RUN      ] Values_are_in_range/ValidatorFixture.test_value_in_range/9
+100 is false?
+[       OK ] Values_are_in_range/ValidatorFixture.test_value_in_range/9 (0 ms)
+[----------] 10 tests from Values_are_in_range/ValidatorFixture (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 22 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 22 tests.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"AccountTests" end time: Aug 22 11:37 GMT Summer Time
+"AccountTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 22 11:37 GMT Summer Time

@@ -1,0 +1,16 @@
+# ninja log v5
+1570	3984	6932572031815691	test/AccountTests.exe	cf6f3e71c4e43a9d
+4	366	6823452632155924	CMakeFiles/Account.dir/src/Account.cpp.obj	611343494908b49c
+10	8246	6823431915197604	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	58f500fb39ca8c50
+16	1570	6932572007755729	test/CMakeFiles/AccountTests.dir/Tests.cpp.obj	a803ca045618c9f4
+8	374	6823452632236001	test/CMakeFiles/AccountTests.dir/__/src/Account.cpp.obj	a2286cf956062dd2
+352	434	6828676711149459	libAccount.a	dc2a185e7b7a44f
+13	2003	6823431852873631	googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	1ba989959a77ad28
+7	2390	6823431856746130	googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	67ab296d6fa3a013
+8247	10141	6823431934262464	lib/libgtest.a	7e7556e636df1454
+4	3893	6823431871751817	googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	7d009f922e7ee027
+10145	10209	6823431934960791	lib/libgtest_main.a	337960a8dfe9198f
+10141	10434	6823431937201075	lib/libgmock.a	707ebaac852660d1
+10434	10505	6823431937915290	lib/libgmock_main.a	cc038057f0e344e0
+4	352	6828676710324291	CMakeFiles/Account.dir/src/Validator.cpp.obj	86434e9cf848a92b
+7	358	6828676710394284	test/CMakeFiles/AccountTests.dir/__/src/Validator.cpp.obj	f35139cb03a5a96
