@@ -31,7 +31,7 @@ C:/Users/Adam/source/repos/Example_TestFramework/build/googletest/googletest/CMa
 C:/Users/Adam/source/repos/Example_TestFramework/build/googletest/googletest/CMakeFiles/install.dir
 C:/Users/Adam/source/repos/Example_TestFramework/build/googletest/googletest/CMakeFiles/install/local.dir
 C:/Users/Adam/source/repos/Example_TestFramework/build/googletest/googletest/CMakeFiles/install/strip.dir
-C:/Users/Adam/source/repos/Example_TestFramework/build/test/CMakeFiles/AccountTests.dir
+C:/Users/Adam/source/repos/Example_TestFramework/build/test/CMakeFiles/MyTests.dir
 C:/Users/Adam/source/repos/Example_TestFramework/build/test/CMakeFiles/test.dir
 C:/Users/Adam/source/repos/Example_TestFramework/build/test/CMakeFiles/edit_cache.dir
 C:/Users/Adam/source/repos/Example_TestFramework/build/test/CMakeFiles/rebuild_cache.dir

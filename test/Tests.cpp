@@ -1,66 +1,38 @@
 #include <gtest/gtest.h>
-#include "../src/Account.hpp"
 #include "../src/Validator.hpp"
 
-class BinaryTest: public testing::Test
+class ValidatorTest: public testing::Test
 {
     public:
-        // void SetUp() override;
-        int getBit(uint8_t value, uint8_t bit)
-        {
-            uint8_t mask = 0b00000001 << bit;
-            uint8_t maskedVal = value&mask;
-            return maskedVal>>bit;
-        }
-    protected:
-        Account mAcc;
+        Validator val{0,0};
 };
 
 
-TEST_F(BinaryTest, test1)
+TEST_F(ValidatorTest, Validator_set_limits_stores_values_correctly)
 {
-    // Given, When
-    uint8_t value = 0b11111111;
+    // Given
+    int expectedLow = 1;
+    int expectedHigh = 200;
+
+    // When
+    val.setLimits(expectedLow, expectedHigh);
 
     // Then
-    ASSERT_EQ(getBit(value,0),1);
-    ASSERT_EQ(getBit(value,1),1);
-    ASSERT_EQ(getBit(value,2),1);
-    ASSERT_EQ(getBit(value,3),1);
-    ASSERT_EQ(getBit(value,4),1);
-    ASSERT_EQ(getBit(value,5),1);
-    ASSERT_EQ(getBit(value,6),1);
-    ASSERT_EQ(getBit(value,7),1);
+    ASSERT_EQ(expectedLow, val.getLowLimit());
+    ASSERT_EQ(expectedHigh, val.getHighLimit());
 }
 
-TEST_F(BinaryTest, test2)
+TEST_F(ValidatorTest, Validator_in_Range_correctly_tells_if_value_is_in_range)
 {
-    // Given, When
-    uint8_t value = 0b00000000;
+    // Given
+    int expectedLow = 1;
+    int expectedHigh = 10;
+    val.setLimits(expectedLow, expectedHigh);
 
-    // Then
-    ASSERT_EQ(getBit(value,0),0);
-    ASSERT_EQ(getBit(value,1),0);
-    ASSERT_EQ(getBit(value,2),0);
-    ASSERT_EQ(getBit(value,3),0);
-    ASSERT_EQ(getBit(value,4),0);
-    ASSERT_EQ(getBit(value,5),0);
-    ASSERT_EQ(getBit(value,6),0);
-    ASSERT_EQ(getBit(value,7),0);
-}
-
-TEST_F(BinaryTest, test3)
-{
-    // Given, When
-    uint8_t value = 0b00010010;
-
-    // Then
-    ASSERT_EQ(getBit(value,0),0);
-    ASSERT_EQ(getBit(value,1),1);
-    ASSERT_EQ(getBit(value,2),0);
-    ASSERT_EQ(getBit(value,3),0);
-    ASSERT_EQ(getBit(value,4),1);
-    ASSERT_EQ(getBit(value,5),0);
-    ASSERT_EQ(getBit(value,6),0);
-    ASSERT_EQ(getBit(value,7),0);
+    // When,Then
+    ASSERT_TRUE(val.inRange(1));
+    ASSERT_TRUE(val.inRange(10));
+    ASSERT_TRUE(val.inRange(5));
+    ASSERT_FALSE(val.inRange(0));
+    ASSERT_FALSE(val.inRange(11));
 }

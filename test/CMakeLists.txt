@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 
-set(This AccountTests)
+set(This MyTests)
 
 set(TestSources Tests.cpp)
 
